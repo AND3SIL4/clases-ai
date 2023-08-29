@@ -45,5 +45,5 @@
   - Si el nodo tiene el goal, retorna la solucion (nodo objetivo)
   - Expandir el nodo (ingresar el siguiente nodo en la secuencia), y añadir nuevos nodos a la frontera
 
-# Pseudocodigo
+# Pseudocodigo representacion
 resultado(estado, accion)
