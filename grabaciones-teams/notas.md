@@ -35,7 +35,15 @@
 - Path cost
   - Tipo de costo numerico para contrastar distintas posibilidades de solucion
   - Minimizar costos 
-
+- Enfoque
+  - Iniciar con el estado inicial dado
+     - Interar y repetir
+      - Considerar todas las opciones disponibles para elmacenar en una frontera
+- Frontera
+  - Si esta vacia, no tiene solucion
+  - Remover el nodo
+  - Si el nodo tiene el goal, retorna la solucion
+  - Expandir el nodo, y añadir nuevos nodos a la frontera
 
 # Pseudocodigo
 resultado(estado, accion)
