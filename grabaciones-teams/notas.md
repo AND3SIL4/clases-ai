@@ -30,7 +30,7 @@
   - Es un conjunto de todos los posibles estados que se puden tener partiendo de una secuencia de accion
 - Nodo 
   - Representa un posible estado dependiendo del problema
-- Objetivo del la prueba
+- Objetivo del la prueba (goal)
   - Determinar un estado final para configuracion del modelo
 - Path cost
   - Tipo de costo numerico para contrastar distintas posibilidades de solucion
@@ -42,8 +42,8 @@
 - Frontera
   - Si esta vacia, no tiene solucion
   - Remover el nodo
-  - Si el nodo tiene el goal, retorna la solucion
-  - Expandir el nodo, y añadir nuevos nodos a la frontera
+  - Si el nodo tiene el goal, retorna la solucion (nodo objetivo)
+  - Expandir el nodo (ingresar el siguiente nodo en la secuencia), y añadir nuevos nodos a la frontera
 
 # Pseudocodigo
 resultado(estado, accion)
