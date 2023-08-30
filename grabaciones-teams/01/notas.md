@@ -44,6 +44,21 @@
   - Remover el nodo
   - Si el nodo tiene el goal, retorna la solucion (nodo objetivo)
   - Expandir el nodo (ingresar el siguiente nodo en la secuencia), y añadir nuevos nodos a la frontera
+- Busqueda no informada
+  - No usa un conocimiento especifico del problema
+- Busqueda informada
+  - Lo contrario a busqueda no informada
+
+
+# Algoritmos
+  Algoritmo Stack
+    - Input is Output (ultima entrada - primera salida)
+  Depth-firts search (DFS)
+    - Expande el nodo mas profundo
+  Breadth-first search (BFS)
+    - Expande el nodo menos profundo
+  Queue (cola)
+    - El primero que entra, es el primero que sale
 
 # Pseudocodigo representacion
 resultado(estado, accion)
