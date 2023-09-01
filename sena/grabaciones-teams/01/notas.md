@@ -25,9 +25,12 @@
   - Las medidas o desiciones que _parten de cualquier estado determinado_, pueden ser ejecutadas por el agente
   - Pueden ser limitadas o mas complejas
 - **Modelo de transicion**
+  - _Relación entre los diferentes estados_ (que se puede hacer hasta llegar el goal)
   - _Descripcion de que accion_ se puede hacer hasta llegar a un estado esperado
 - **Conjunto espacion de estado**
   - Es un _conjunto de todos los posibles estados_ que se puden tener partiendo de una secuencia de accion
+- **Space state**
+  - Parecido a un arbol de decisiones 
 - **Nodo** 
   - Representa un _posible estado_ dependiendo del problema
 - **Objetivo del la prueba (goal)**
@@ -62,3 +65,9 @@
 
 # Pseudocodigo representacion
 resultado(estado, accion)
+
+
+¿Estados en ejecusion paralela?
+- No, solo da la persepcion
+¿Espacio de estados es lo mismo que un arbol de descision?
+- A groso modo, si es lo mismo
