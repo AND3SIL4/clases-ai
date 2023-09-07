@@ -45,3 +45,44 @@
                 - Estructura de datos, que maneja datos ordenados, se accede mediante el indice
             - Map
                 - Estructura de datos, desordenada, se accede mediante la key
+
+# Machine learning
+- Cualquier algoritmo que tenga la capacidad de aprender, podra ser considerado inteligencia artificial
+  - Datos
+  - Modelo
+    - Predicciones
+      - Presicion del modelo
+      - Tipos de respuesta
+        - Clasificacion
+          - Varias opciones y se busca clasificar el resultado
+        - Regresion
+          - No se tienen opciones, se busca un dato en especifico 
+
+
+# SVM --> Soporter Vectorial Machine
+- Es una clase de modelos supervisados.
+- El objetivo es encontrar las lineas o hiperplanos mas adecuadas entre dos conjuntos de puntos.
+- muchos parametros
+- Supervise learning
+  - Convertir todos los datos en valores numericos
+    - Kernel: motor de la maquina vectorial 
+      - Kernel lineal (linear)
+      - Kernel radial (rfb)
+      - Kernel polinomial (bpoly)
+
+accuracy
+# Redes Neuronales (input/entrada layer) -> (hidden/interna layer) -> (output/salida layer)
+  - Capas (layers)
+    - Neuronas
+      - Cada neurona recibe una entrada
+      - Una carga en especifico
+    - Activacion condicional de siguiente capa
+
+  Funcion de activacion --> Pesos(w)
+    - Reglas para activar las siguientes personas
+
+  Entrenamiento
+    - Los mejores pesos para la activacion de las neuronas
+
+      - primera vez 
+        - pesos aleatorios
