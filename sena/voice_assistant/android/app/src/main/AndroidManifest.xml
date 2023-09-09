@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="voice_assitant_andres_silva"
+        android:label="voice_assistant"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

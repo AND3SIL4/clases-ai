@@ -1,4 +1,4 @@
-package com.and3.voice_assitant_andres_silva
+package com.example.voice_assistant
 
 import io.flutter.embedding.android.FlutterActivity
 
